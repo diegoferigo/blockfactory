@@ -29,8 +29,8 @@ target_compile_warnings(SimulinkCoder
 # CMake macro and functions
 install(
     FILES
-    "${CMAKE_SOURCE_DIR}/cmake/TargetFromGeneratedCode.cmake"
-    "${CMAKE_SOURCE_DIR}/cmake/SimulinkCoderSetup.cmake"
+    "${PROJECT_SOURCE_DIR}/cmake/TargetFromGeneratedCode.cmake"
+    "${PROJECT_SOURCE_DIR}/cmake/SimulinkCoderSetup.cmake"
     DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/BlockFactory/cmake")
 
 install(
