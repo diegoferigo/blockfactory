@@ -32,8 +32,6 @@ private:
     Operation m_operation;
 
 public:
-    static const std::string ClassName;
-
     SignalMath() = default;
     ~SignalMath() override = default;
 
